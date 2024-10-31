@@ -1369,6 +1369,7 @@ __metadata:
     framer-motion: "npm:^11.11.11"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-icons: "npm:4.7.1"
     typescript: "npm:^4.9.3"
     vite: "npm:^4.2.0"
   languageName: unknown
@@ -2035,6 +2036,15 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 10c0/6d4539e9ec5943de8a7eb856df7ab97c3da751ce6515512ca337dfb2bd06499ebc1051f8c96b142ad093637825a0ddcceb884282c1ec246dd02f293a8aafa688
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:4.7.1":
+  version: 4.7.1
+  resolution: "react-icons@npm:4.7.1"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/be1d82522feba668df7d6f4d1f6ea59f4d5aca58f761790a5e08fcef50ef27d563a9fe78d803576fa64910607172886d559f6ad1cd9c7857b683b4e16eb50eea
   languageName: node
   linkType: hard
 
