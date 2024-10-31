@@ -26,12 +26,12 @@ function App() {
 
       {/* show component will only render the aside grid item when the screen size is lg */}
       <Show above="lg">
-        <GridItem area="aside" bg="gold">
+        <GridItem area="aside" >
           Aside
         </GridItem>
       </Show>
 
-      <GridItem area="main" bg="dodgerblue">
+      <GridItem area="main" >
         Main
       </GridItem>
     </Grid>
