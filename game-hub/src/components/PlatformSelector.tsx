@@ -9,11 +9,7 @@ interface Props {
 }
 
 export const PlatformSelector = ({ selectedPlatform, setSelectedPlatform }: Props) => {
-    const { data, error, isLoading } = usePlatform();
-
-    if (isLoading) {
-        return <Spinner/ >;
-    }
+    const { data, error } = usePlatform();
 
     if (error) return null; 
     
