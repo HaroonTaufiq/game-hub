@@ -1,6 +1,7 @@
 import { Grid, GridItem, Show } from '@chakra-ui/react';
 import Navbar from './components/navbar';
 import GameGrid from './components/gameGrid';
+import GenreList from './components/GenreList';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
       {/* show component will only render the aside grid item when the screen size is lg */}
       <Show above="lg">
         <GridItem area="aside" >
-          Aside
+        <GenreList/>
         </GridItem>
       </Show>
 
